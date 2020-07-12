@@ -1,0 +1,250 @@
+/* ghostwhite */
+body {
+    font: 15px/1.5 Georgia, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: ghostwhite;
+}
+
+.container {
+    min-width: 80%;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+header {
+    background-color: gainsboro;
+    height: 50px;
+    padding-left: 5%;
+}
+
+header .mark {
+    color: gray;
+    text-decoration: underline;
+    text-transform: uppercase;
+}
+
+#branding h1 {
+    margin: 0;
+    margin-top: 5px;
+    font-size: 30px;
+    float: left;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header li {
+    display: inline;
+    float: left;
+    padding: 0 20px 0 20px;
+    margin-top: 5px;
+}
+
+header a {
+    text-decoration: none;
+    color: dimgray;
+    text-transform: uppercase;
+}
+
+header .mark:hover,
+header a:hover {
+    color: thistle;
+    font-weight: bold;
+    text-decoration: overline;
+}
+
+.border {
+    border-bottom: 3px solid thistle;
+}
+
+#showcase {
+    min-height: 700px;
+    background: url(../img/showcase.jpg) no-repeat 0 -400px;
+    color: #000000;
+}
+#showcase .under {
+    border: thistle 5px solid;
+    text-align: center;
+    width: 150px;
+    margin-left: 17%;
+}
+
+#skills {
+    /* min-width: 80%; */
+    min-height: 700px;
+    float: left;
+    margin: 0;
+    margin-left: 10%;
+    color: dimgray;
+}
+
+#skills h1 {
+    font-size: 25px;
+    text-decoration: underline;
+    text-transform: uppercase;
+    /* margin-left: 10%; */
+}
+
+#skills .prog {
+    float: left;
+}
+
+#skills img {
+    /* margin-top: 10%; */
+    width: 35%;
+    float: right;
+    margin-right: 10%;
+    overflow: hidden;
+    border-radius: 5px;
+}
+
+#skills p {
+    width: 80%;
+}
+
+#skills #desc {
+    width: 80%;
+}
+
+#aboutme {
+    min-height: 700px;
+    margin: 0;
+    min-width: 80%;
+    color: thistle;
+}
+
+#aboutme h1 {
+    font-size: 25px;
+    margin-left: 50%;
+    color: dimgray;
+    text-transform: uppercase;
+    text-decoration: underline;
+}
+
+#aboutme img {
+    width: 15%;
+    float: left;
+    margin-left: 15%;
+    border-radius: 10px;
+}
+
+#aboutme p {
+    float: left;
+    /* text-align: center; */
+    width: 40%;
+    padding: 20px;
+    border: dimgray 1px solid;
+    margin-left: 70px;
+    text-align: center;
+    background-color: dimgray;
+    border-radius: 10px;
+}
+
+#aboutme .edge {
+    text-align: center;
+    /* margin-right: 50%; */
+    padding: 10% 15% 0% 15%;
+}
+
+#aboutme a {
+    background-color: thistle;
+    color: dimgray;
+    border-radius: 30px;
+    padding: 15px;
+    margin: 0 15px 0 15px;
+}
+
+#services {
+    margin-top: 20px;
+    min-height: 700px;
+    width: 80%;
+    text-align: center;
+    margin-left: 10%;
+}
+
+#services h1 {
+    font-size: 25px;
+    color: dimgray;
+    text-transform: uppercase;
+    text-decoration: underline;
+}
+
+#services .parg {
+    border: thistle 1px solid;
+    background-color: dimgray;
+    border-radius: 20px;
+}
+
+#services h3 {
+    color: thistle;
+}
+
+#services p {
+    color: white;
+    padding: 3px;
+}
+
+#contact {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    /* font-size: 25px; */
+    margin-left: 30%;
+    color: thistle;
+}
+
+#contact h1 {
+    font-size: 25px;
+    text-transform: uppercase;
+    text-decoration: underline;
+    
+}
+
+#contact p {
+    float: left;
+    color: dimgray;
+    width: 50%;
+}
+
+#contact .edge {
+    padding: 15% 70% 0 10%;
+}
+
+#contact a {
+    padding: 5px;
+    background-color: thistle;
+    color: dimgray;
+    border-radius: 30px;
+    margin: 0 10px 0 10px;
+}
+
+#contact #mailling{
+    margin: 0 auto;
+    text-align: center;
+    margin-left: 30%;
+}
+
+#contact input[type='text']{
+    padding: 5px;
+    width: 250px;
+    border-radius: 5px;
+}
+
+#contact button {
+    margin: 0;
+    padding: 0;
+    height: 30px;
+    padding: 0 20px;
+    border-radius: 5px;
+}
+
+#contact button:hover {
+    background-color: dimgray;
+    color: thistle;
+}
+
+footer {
+    background-color: dimgray;
+    padding: 20px;
+    padding-left: 10%;
+    color: thistle;
+}
